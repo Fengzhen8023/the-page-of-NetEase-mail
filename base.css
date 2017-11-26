@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+#overall{
+    width:960px;
+    height:728px;
+    margin:0 auto;
+}
+
+/*上方导航区的样式*/
+#top{
+    width:100%;
+    height:80px;
+}
+#top #top_left{
+    width:644px;
+    height:26px;
+    background: url("images/glb_v2.png") no-repeat 0 0;
+    float: left;
+    margin-top:27px;
+}
+#top #top_left>a{
+    width:107px;
+    height:26px;
+    margin-right: 20px;
+    display:inline-block;
+}
+#top #top_right{
+    width:142px;
+    height:12px;
+    margin-top:34px;
+    float:right;
+}
+#top #top_right>a{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+
+/*中间主体部分上方注册导航条样式*/
+#middle{
+    width:100%;
+    height:600px;
+    border: 1px solid #cccccc;
+}
+#middle #middle_title_center{
+    width:100%;
+    height:38px;
+    background:url("images/line-center.png") repeat-x ;
+}
+#middle #middle_title_right{
+    width:100%;
+    height:38px;
+    background:url("images/line-right.png") no-repeat right ;
+}
+#middle #middle_title_left{
+    width:100%;
+    height:38px;
+    background:url("images/line-left.png") no-repeat left ;
+}
+#middle #middle_title_left>h1{
+    font-size: 14px;
+    color: white;
+    line-height:38px;
+    margin-left:20px;
+
+}
+
+/*主体部分左边的输入部分样式*/
+#middle #middle_left{
+    width:640px;
+    height:562px;
+    float: left;
+}
+#middle #middle_left #middle_nav{
+    width:412px;
+    height:34px;
+    background: url("images/tab.jpg")no-repeat 0 0;
+    margin:50px 0 0 80px;
+}
+#middle #middle_left #middle_nav>ul{
+    width: 100%;
+    height:100%;
+}
+#middle #middle_left #middle_nav>ul>li{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    list-style: none;
+    color: black;
+    font-size: 13px;
+    line-height:34px;
+    text-align: center;
+}
+#middle #middle_left #middle_nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#middle #middle_left #message{
+    width:412px;
+    height:272px;
+}
+#middle #middle_left #message ul{
+    width: 100%;
+    height: 100%;
+    margin:26px 0 0 82px;
+}
+#middle #middle_left #message ul>li{
+    width:100%;
+    height:56px;
+    list-style: none;
+}
+#middle #middle_left #message ul>li>.input_table>p{
+    font-size: 12px;
+}
+#middle #middle_left #message ul>li>span{
+    width:60px;
+    height: 28px;
+    display: inline-block;
+    float: left;
+    font-size:12px;
+    text-align: right;
+    margin-right:8px;
+    margin-top:8px;
+}
+#middle #middle_left #message ul>li>span>em{
+    color: red;
+}
+/*设置其他输入框的长短*/
+#middle #middle_left #message ul>li>.input_table>input{
+    width:333px;
+    height:28px;
+    border: 1px solid #999;
+}
+/*单独设置第一个的长短*/
+#middle #middle_left #message ul>li:nth-child(1)>.input_table>input{
+    width:214px;
+    height:28px;
+    border: 1px solid #999;
+    color: #999;
+}
+#middle #middle_left #message ul>li:nth-child(1) .email_suf{
+    width:100px;
+    height:28px;
+    border: 1px solid #999;
+}
+/*单独设置验证码的输入框*/
+#middle #middle_left #message ul>li:nth-child(5)>.input_table{
+    display: inline-block;
+}
+#middle #middle_left #message ul>li:nth-child(5)>.input_table>input {
+    width: 212px;
+    height: 28px;
+    border: 1px solid #999;
+    margin-right: 20px;
+}
+#middle #middle_left #message ul>li:nth-child(5) img {
+    width: 100px;
+    height:28px;
+    float: right;
+    margin-right:10px;
+}
+
+/*单独设置条款中的元素样式*/
+#middle #middle_left #message ul>li:nth-child(6)>.input_table>input{
+    width: 14px;
+    height: 14px;
+
+}
+#middle #middle_left #message ul>li:nth-child(6)>.input_table>span{
+    font-size: 12px;
+}
+#middle #middle_left #message ul>li:nth-child(6)>.input_table>span>a{
+    text-decoration: none;
+    color: gray;
+}
+
+/*提交按钮的样式*/
+#middle #middle_left #message input[type='submit'] {
+    width: 119px;
+    height:37px;
+    background: url("images/glb_v2.png") -432px -360px no-repeat;
+    border: none;
+    cursor: pointer;
+    float: left;
+    margin: -10px 0 0 150px;
+}
+
+/*中间主主体右边的样式*/
+#middle #middle_right{
+    width:318px;
+    height:562px;
+    background-color: #f8f8f8;
+    float:right;
+    border-left: 2px solid #999999;
+}
+#middle #middle_right>img{
+    margin:106px auto;
+    display: block;
+}
+
+/*底部文字区域样式*/
+#bottom{
+    width:100%;
+    height:48px;
+}
+#bottom .bottom_links{
+    text-align: center;
+    line-height: 48px;
+}
+#bottom .bottom_links>li{
+    display: inline;
+    font-size: 13px;
+    color: #999999;
+}
+#bottom .bottom_links>li>a{
+    text-decoration: none;
+    color: #999;
+}
+
